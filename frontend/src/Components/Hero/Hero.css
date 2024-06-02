@@ -1,0 +1,70 @@
+/* Hero.css */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.hero-left {
+    flex: 1;
+    padding: 20px;
+}
+
+.hero-left h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.hand-hand-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.hand-hand-icon p {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #ff0000;
+}
+
+.hero-left img {
+    width: 30px;
+    height: 30px;
+}
+
+.hero-left p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.hero-latest-btn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-latest-btn img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
